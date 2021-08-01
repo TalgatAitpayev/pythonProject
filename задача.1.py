@@ -1,2 +1,5 @@
-numbers=list(int(input()))#не понимаю как сделать список который можно будет ввести
-print (numbers[0::2])#не помню проходили ли мы срезы, знаю что в range можно задать старт, стоп, шаг. через for никак не дойдет до мен
+numbers=[1,2,3,4,5,6]#как сделать input массива?
+for x in range(-1,len(numbers)):
+    a=numbers[x]
+    if x%2==0:
+        print(numbers[x], end=' ')
